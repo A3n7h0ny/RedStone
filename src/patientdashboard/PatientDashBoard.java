@@ -22,7 +22,7 @@ public class PatientDashBoard {
                 splash.jProgressBar1.setValue(i);
                 if(i==100){
                     new logIN().setVisible(true);
-      
+                    screen.dispose();
                 }
             }
         }catch(Exception e){
